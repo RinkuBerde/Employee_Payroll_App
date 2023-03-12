@@ -139,4 +139,5 @@ class EmployeePayrollData {
         } catch (e) {
             console.error(e);
         }
+        
     }
