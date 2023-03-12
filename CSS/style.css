@@ -124,3 +124,7 @@ error-output{
     border-radius: 50%;
     margin-left: 12px;
 }
+lable{
+    padding:12px 12px 12px 0px;
+    display: inline-block;
+}
