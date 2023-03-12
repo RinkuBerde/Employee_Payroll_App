@@ -10,7 +10,7 @@
       rel="stylesheet"
     />
     <title>Employee Payroll App</title>
-    <script defer src="../js/payroll_form.js"></script>
+    <script defer src="../javascript\payroll.js"></script>
   </head>
 
   <body>
@@ -57,8 +57,8 @@
                     </label>
                 </div>
             </div>
-             <!-- UC4 Specify gender as radio button, department as checkbox, salary as range indicator-->
-             <div class="row-content">
+              <!-- UC4 Specify gender as radio button, department as checkbox, salary as range indicator-->
+            <div class="row-content">
                 <label class="label text" for="gender">Gender</label>
                 <div>
                     <input type="radio" id="male" name="gender" value="male">
@@ -87,8 +87,8 @@
                 <input type="range" name="salary" id="salary" min="300000" max="500000" step="100" value="400000">
                 <output class="salary-output" for="salary">400000</output>
             </div>
-            <!--UC5 Specify startdate with day, month, year-->
-            <div class="row-content">
+             <!--UC5 Specify startdate with day, month, year-->
+             <div class="row-content">
                 <label class="label text" for="startDate">Start Date</label>
                 <div>
                     <select id="day" name="Day">
@@ -150,8 +150,7 @@
                     <error-output class="date-error"></error-output>
                 </div>
             </div>
-            <!-- UC7 UX design -->
-            
+            <!--UC7 UX Design -->
             <div class="row-content">
                 <label class="label text" for="notes">Notes</label>
                 <textarea
@@ -163,7 +162,7 @@
                 ></textarea>
               </div>
               <div class="buttonParent">
-                <a href="../Pages\index.html" class="resetButton button cancelButton"
+                <a href="index.html" class="resetButton button cancelButton"
                   >Cancel</a
                 >
                 <div class="submit-reset">
@@ -173,6 +172,7 @@
                 </div>
               </div>
             </form>
-          </div>
+     
+        </div>
   </body>
 </html>
